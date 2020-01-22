@@ -23,6 +23,7 @@ def find_the_cheese(array)
       return e
     end
   end
+  return nil
   # binding.pry
   
 end
