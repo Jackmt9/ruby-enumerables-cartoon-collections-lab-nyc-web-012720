@@ -19,7 +19,8 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.each do |e|
-    if e == 
+    cheese_types.include?(e)
+  end
   # binding.pry
   
 end
