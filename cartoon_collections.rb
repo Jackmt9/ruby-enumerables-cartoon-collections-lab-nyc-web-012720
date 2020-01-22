@@ -21,6 +21,7 @@ def find_the_cheese(array)
   array.each do |e|
     cheese_types.include?(e)
   end
+end
   # binding.pry
   
 end
