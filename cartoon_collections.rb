@@ -18,8 +18,8 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.select! {|e| e =~ /cheese_types/}
-  array[0]
+  array.each do |e|
+    if e == 
   # binding.pry
   
 end
