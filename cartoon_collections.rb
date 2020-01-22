@@ -12,7 +12,6 @@ end
 
 def long_planeteer_calls(calls)
   longest_word = calls.map(&:length).max 
-  
   (longest_word > 4)? true:false
   # binding.pry
 end
